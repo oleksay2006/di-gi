@@ -1,0 +1,166 @@
+@media only screen and (max-width: 1024px) {
+	.nav {
+		width: 940px;
+	}
+	.mind {
+		font-size: 84px;
+	}
+	.header-text {
+		font-size: 18px;
+		width: 580px;
+	}
+	.services {
+		display: grid;
+	}
+	.second {
+		height: 910px;
+	}
+	.card {
+		width: 220px;
+	}
+	.services {
+		width: 935px;
+		
+	}
+	.second-text {
+		width: 935px;
+		margin-left: 0px;
+	}
+	
+	.second-text h1{
+		text-align: center;
+	}
+	.second-p {
+		width: 610px;
+	}
+	.second-p-p {
+		width: 610px;
+	}
+	.third {
+		height: 1030px;
+	}
+	.projects {
+		display: grid;
+		width: 650px;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 35px;
+	}
+	.element {
+		margin-top: 30px;
+	}
+	.project {
+		height: 325px;
+		width: 320px;
+	}
+	.element .img {
+		width: 320px;
+	}
+	.yellow {
+		width: 290px;
+		height: 260px;
+	}
+	.projects p {
+		margin-top: 0;
+	}
+	.fourth {
+		height: 540px;
+	}
+	.video {
+		width: 975px;
+	}
+	.video-img img{
+		width: 400px;
+	}
+	.video-text {
+		margin-left: 50px;
+	}
+	.video-btn {
+		margin-top: 20px;
+	}
+	.icons {
+		margin-top: 110px;
+	}
+	.news {
+		width: 880px;
+		height: 1020px;
+		column-count: 3;
+	}
+	.fifth {
+		height: 1370px;
+	}
+	.seventh {
+		height: 630px;
+	}
+	.authors {
+		width: 940px;
+	}
+	.social {
+		width: 940px;
+	}
+	.type {
+		
+		padding: 23px 15px;
+	}
+	.footer {
+		width: auto;
+	}
+	.authors-text {
+		font-size: 36px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.nav {
+		width: 680px;
+	}
+
+	.header-intro {
+		height: 465px;
+	}
+	.mind {
+		font-size: 60px;
+		font-weight: bold;
+		line-height: 60px;
+		height: auto;
+	}
+	.header-text {
+		margin-bottom: 0;
+	}
+	.arrows {
+		top: 270px;
+	}
+	.dots {
+		margin-top: 40px;
+	}
+	.recall {
+		width: 680px;
+	}
+	.about-text h2 {
+		font-size: 24px;
+	}
+	/*.second-text h1 {
+		text-align: center;
+		
+	}*/
+	.second-text {
+		width: 725px;
+		margin-left: 45px;
+	}
+	.services {
+		width: 690px;
+		margin-left: 0;
+	}
+	.card-list {
+		margin-left: 45px;
+		width: 660px;
+		height: 1160px;
+		grid-template-columns: 1fr 1fr;
+	}
+	.second {
+		height: 1555px;
+	}
+	.card {
+		width: 330px;
+		height: 290px;
+	}
+
+}
