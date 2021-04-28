@@ -162,5 +162,82 @@
 		width: 330px;
 		height: 290px;
 	}
+	.video {
+		width: 770px;
+	}
+	.video-img img {
+		width: 240px;
+		padding-top: 40px;
+		padding-left: 45px;
+		height: 230px;
+	}
+	.video-text {
+		margin-top: 40px;
+		margin-left: 30px;
+	}
+	.video-text h1 {
+		font-size: 36px;
+	}
+	.video-text p {
+		width: 405px;
+	}
+	.video-text hr {
+		margin-bottom: 7px;
+		margin-top: 20px;
+	}
+	.fifth {
+		height: 1745px;
+	}
+	.news {
+		height: 1600px;
+		width: 570px;
+		column-count: 2;
+	}
+	.our-projects p {
+		font-size: 36px;
+		
+	}
+	.our-projects-p {
+		color: #2B4074;
+	}
+	.authors {
+		width: 100%;
+	}
+	.authors-text {
+		width: 690px;
+		font-size: 36px;
+		padding-top: 110px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.social {
+		width: 690px;
+	}
+	.seventh {
+		height: 720px;
+	}
+	.footer {
+		grid-template-columns: 1fr 1fr;
+		margin-left: 45px;
+	}
 
+}
+@media only screen and (max-width: 640px) {
+	.nav {
+		width: 560px;
+	}
+	.about {
+		height: 255px;
+	}
+	.recall {
+		width: 580px;
+		flex-direction: column;
+		padding-top: 40px;
+	}
+	.about-text {
+		margin-bottom: 40px;
+	}
+	.about-text h2, .about-text p {
+		text-align: center;
+	}
 }
