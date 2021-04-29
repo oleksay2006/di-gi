@@ -2,7 +2,7 @@
 */html {font-family: Roboto Condensed, sans-serif;}
 /*---------------Основная разметка--------------*/
 .header {
-	max-width: 100%;
+	width: 100%;
 
 }
 section {
@@ -47,13 +47,14 @@ section {
 	background-color: #2B4074;
 }
 .nav {
-	max-width: 1300px;
+	width: 1300px;
 
 	height: 100px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .menu-button {
@@ -90,7 +91,7 @@ h1, p {
 	color: white;
 	letter-spacing: 2px;
 	font-size: 96px;
-	line-height: 96px;
+	
 	font-weight: normal;
 	
 }
@@ -217,15 +218,22 @@ h1, p {
 	flex-direction: column;
 	justify-content: left;
 }
+.second-h1 {
+	color: #2B4074;
+	font-size: 48px;
+	font-weight: 700;
+	margin-bottom: 65px;
+	margin-top: 90px;
+}
 .second-p {
 	color: black;
 	font-size: 24px;
-	width: 390px;
+	
 }
 .second-p-p {
 	color: #797979;
 	font-size: 18px;
-	width: 350px;
+	
 }
 .services {
 	display: flex;
@@ -301,6 +309,10 @@ hr {
 	display: block;
 	opacity: 1;
 }
+.our {
+	font-size: 48px;
+	color: #fff;
+}
 .our-projects {
 	display: flex;
 	flex-direction: column;
@@ -346,6 +358,9 @@ hr {
 	border-radius: 3px;
 	opacity: 0.8;
 	display: none;
+}
+.icons img {
+	width: 25px;
 }
 .icons {
 	width: 65px;
