@@ -369,7 +369,7 @@
 	}
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 480px) { /*320 - 480px*/
 	.nav {
 		width: 275px;
 	}
@@ -527,8 +527,10 @@
 	}
 	.type {
 		border: none;
+		/*display: flex;
+		justify-content: center;*/
 		padding: 0;
-		width: 320px;
+		/*width: 320px;*/
 	}
 	.type img {
 		padding-bottom: 20px;
