@@ -89,9 +89,9 @@
 	.authors {
 		width: 940px;
 	}
-	.social {
+	/*.social {
 		width: 940px;
-	}
+	}*/
 	.type {
 		
 		padding: 23px 15px;
@@ -147,7 +147,7 @@
 	.card-list {
 		margin-left: 45px;
 		
-		height: 1160px;
+		
 		grid-template-columns: 1fr 1fr;
 	}
 	.second {
@@ -205,9 +205,9 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
-	.social {
+	/*.social {
 		width: 690px;
-	}
+	}*/
 	.seventh {
 		height: 720px;
 	}
@@ -361,9 +361,9 @@
 		padding-left: 50px;
 		padding-top: 80px;
 	}
-	.social {
+	/*.social {
 		width: 560px;
-	}
+	}*/
 	.footer {
 		grid-gap: 20px;
 	}
@@ -387,7 +387,7 @@
 		display: none;
 	}
 	.header-intro {
-		background-size: auto 190px;
+		
 		background-repeat: no-repeat;
 		height: 190px;
 	}

@@ -44,10 +44,11 @@ section {
 	height: 190px;
 }
 .header-nav {
+	width: 100%;
 	background-color: #2B4074;
 }
 .nav {
-	width: 1300px;
+	width: 80%;
 
 	height: 100px;
 	display: flex;
@@ -69,7 +70,7 @@ section {
 }
 .header-intro {
 	
-	max-width: 100%;
+	width: 100%;
 	background-image: url("../images/bg-img.jpg");
 	height: 670px;
 	display: flex;
@@ -252,7 +253,7 @@ h1, p {
 .card-list {
 	list-style-type: none;
 	width: 70%;
-	height: 530px;
+	
 	padding: 10px;
 	margin: 0;
 	display: grid;
@@ -553,7 +554,7 @@ hr {
 	margin-right: auto;
 }
 .social {
-	width: 1210px;
+	
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	margin-left: auto;
