@@ -145,7 +145,7 @@
 		margin-left: 0;
 	}
 	.card-list {
-		margin-left: 45px;
+		/*margin-left: 45px;*/
 		
 		
 		grid-template-columns: 1fr 1fr;
@@ -275,7 +275,7 @@
 		margin-right: auto;
 	}
 	.card-list {
-		margin-left: 15px;
+		/*margin-left: 15px;*/
 
 		grid-gap: 0;
 	}
@@ -410,10 +410,11 @@
 		width: 320px;
 		height: 1780px;
 		display: flex;
+		margin: 0 auto;
 		flex-direction: column;
 	}
 	.card-list {
-		width: 275px;
+		
 		margin-right: auto;
 		margin-left: auto;
 		grid-template-columns: 1fr;
