@@ -137,6 +137,7 @@ h1, p {
 }
 .dots {
 	margin-top: 100px;
+	display: none;/*Другие точки*/
 }
 .fa-circle{
 	margin-left: 5px;
@@ -406,7 +407,8 @@ hr {
 	margin-right: auto;
 }
 .video-text {
-	margin-left: 100px;
+	margin-left: auto; /*100px*/
+	margin-right: auto;
 	margin-top: 70px;
 }
 .video-btn {
