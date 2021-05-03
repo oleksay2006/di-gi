@@ -137,7 +137,7 @@ h1, p {
 }
 .dots {
 	margin-top: 100px;
-	display: none;/*Другие точки*/
+	display: none; /*Другие точки*/
 }
 .fa-circle{
 	margin-left: 5px;
